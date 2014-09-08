@@ -1,9 +1,0 @@
-#! /bin/sh
-
-while [ true ]
-do
-FILE=`python tbreak.py`
-URL=`find ~/Music/free/ -name $FILE`
-
-sleep 1h ; mpg123 $URL ; sleep 15m ; mpg123 $URL
-done
